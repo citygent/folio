@@ -24,16 +24,34 @@ h1 {
   font-size: 3em;
   font-weight: bold;
 }
-.contact {
-  padding-left: 3em
-}
+/*.contact {
+  padding-right: 3em
+}*/
 .contact a {
   font-size: 1em;
   line-height: 2em;
   color: black;
   text-decoration: none;
 }
-.work {
+/*.work {
   padding-left: 3em;
   padding-right: 3em;
+}*/
+ 
+.work {
+  overflow:hidden;
+}
+.work-title {
+  width:100%;
+  padding:15px;
+  display:inline-block;
+  transition:all linear 0.25s;
+  font-size:1em;
+}
+ 
+.work-title.active, .work-title:hover, .work-title a {
+  text-decoration:none;
+}
+.work-content {
+  padding:15px;
 }
