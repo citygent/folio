@@ -12,46 +12,82 @@ h1 {
   font-size: 3em;
   border-bottom: .1em solid #000;
 }
-.intro {
+.main {
   padding: 2.5em 4em 3em 3em;
-  min-height: 100vh;
+}
+.intro {
+  padding-bottom: 3em;
 }
 .intro h1 {
-  font-size: 4em;
-  border-bottom: .1em solid #000;
+  font-size: 6em;
+  font-size: 10vw;  
+  letter-spacing: -0.05em;
+  border-bottom: none;
+}
+h1.multiline-last {
+  border-bottom: .05em solid #000;
+}
+.intro p:first-of-type {
+  margin-top: 2em;
 }
 .intro p {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
+  letter-spacing: -0.025em;
 }
-/*.contact {
-  padding-right: 3em
-}*/
+/* ======================================= */
+.contact {
+  padding-right: 2em;
+  padding-bottom: 3em;
+}
 .contact a {
-  font-size: 1em;
-  line-height: 2em;
+  font-size: 1.5em;
+  line-height: 3em;
   color: black;
   text-decoration: none;
 }
-/*.work {
-  padding-left: 3em;
-  padding-right: 3em;
-}*/
- 
+/* ======================================= */
 .work {
   overflow:hidden;
+  padding-bottom: 3em;
 }
 .work-title {
   width:100%;
-  padding:15px;
+  padding: 1em;
   display:inline-block;
   transition:all linear 0.25s;
-  font-size:1em;
+  font-size: 1em;
 }
  
 .work-title.active, .work-title:hover, .work-title a {
   text-decoration:none;
 }
 .work-content {
-  padding:15px;
+  padding: 1em;
+}
+
+@media screen and (max-width: 35.5em) {
+  /* sm */
+}
+@media screen and (max-width: 48em) {
+  /* md */
+}
+
+@media screen and (max-width: 64em) {
+  /* lg  /  iPhone breakpoint 
+  h1 {
+    font-size: 6em;
+    border-bottom: .1em solid #000;
+  }
+  .intro p {
+    font-size: 3.7em;
+  }
+  .intro h1 {
+    font-size: 6.5em;
+  }
+*/
+
+}
+@media screen and (max-width: 80em) {
+  /* xl */
 }
