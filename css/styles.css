@@ -22,7 +22,7 @@ h1 {
 }
 .intro h1 {
   font-size: 6em;
-  font-size: 7vw;  
+  font-size: 7.5vw;  
   letter-spacing: -0.05em;
   border-bottom: none;
 }
@@ -34,7 +34,7 @@ h1.multiline-last {
 }
 .intro p {
   font-size: 2em;
-  font-size: 3.333vw;
+  font-size: 2.5vw;
   font-weight: bold;
   letter-spacing: -0.025em;
 }
@@ -60,7 +60,7 @@ h1.multiline-last {
 }
 .screenshot1, .screenshot2 {
   min-height: 300px;
-  padding-top: 1em;
+  padding-top: 2em;
   padding-right: 1em;
   background: url(../images/placeholder.png) center/contain no-repeat;
   background-origin: content-box; 
@@ -69,10 +69,11 @@ h1.multiline-last {
 
 dt { 
   font-size: 1.25em;
+  font-weight: bold;
   width:100%;
   margin-top: 1em;
   display:inline-block;
-  border-bottom: 0.25em solid #000;
+  border-bottom: 0.10em solid #000;
 }
 
 dd { 

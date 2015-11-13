@@ -25,7 +25,7 @@ $(document).ready(function() {
       $allCells.slideUp();
       // return all titles (except current one) to normal size
       $allTitles.animate({
-        fontSize: "14px",
+        "font-size": "1.25em",
         paddingTop: 5,
         paddingRight: 5,
         paddingBottom: 5,
@@ -33,7 +33,7 @@ $(document).ready(function() {
       });
       // animate current title to full size      
       $el.animate({
-        "font-size": "20px",
+        "font-size": "2em",
         paddingTop: 5,
         paddingRight: 5,
         paddingBottom: 5,
