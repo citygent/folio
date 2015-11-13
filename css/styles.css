@@ -1,3 +1,5 @@
+/** { margin: 0; padding: 0; }*/
+
 h1, h2, h3, h4, h5, h6 { 
   margin: 0; 
   padding: 0; 
@@ -42,14 +44,44 @@ h1.multiline-last {
   padding-bottom: 3em;
 }
 .contact a {
-  font-size: 1em;
-  font-size: 1.5vw;
-  line-height: 2em;
+  font-size: 1.25em;
+  font-size: 2vw;
+  line-height: 2.5em;
   color: black;
   text-decoration: none;
 }
+
 /* ======================================= */
-.work {
+.work { 
+  overflow:hidden;
+  height: 100%;
+}
+.work-images { 
+  min-height: 300px; 
+  display: block;
+}
+.screenshot1, .screenshot2 { 
+  /*padding: 5px;*/
+  min-height: 300px;
+  background: url(../images/placeholder.png) center/contain no-repeat; 
+  /*background-origin: content-box;*/
+}
+
+dt { 
+  padding: 5px; 
+  border-bottom: 1px solid black; 
+  border-right: 1px solid black; 
+}
+dd { 
+  position: absolute; 
+  left: -9999px; 
+  top: -9999px; 
+  padding: 10px; 
+
+  border-right: 1px solid black; 
+}
+/* ======================================= */
+/*.work {
   overflow:hidden;
   padding-bottom: 3em;
 }
@@ -60,13 +92,14 @@ h1.multiline-last {
   transition:all linear 0.25s;
   font-size: 1em;
 }
- 
 .work-title.active, .work-title:hover, .work-title a {
   text-decoration:none;
 }
 .work-content {
   padding: 1em;
-}
+}*/
+/* ======================================= */
+
 
 @media screen and (max-width: 35.5em) {
   /* sm */
@@ -88,11 +121,11 @@ h1.multiline-last {
     font-size: 6.5em;
   }
 */
-  .contact a {
+/*  .contact a {
     font-size: 1.5em;
     font-size: 2.5vw;
     line-height: 3em;
-  }
+  }*/
 
 }
 @media screen and (max-width: 80em) {
