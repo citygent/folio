@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   var $el, 
   $allTitles = $("dt").css({
-    padding: 5, // Keep as 5, prevents animating at 0 padding instead of 5 bug. 
+    padding: 0, // Keep as 5, prevents animating at 0 padding instead of 5 bug. 
     "cursor": "pointer" // looks clickable
   }),
   $allCells = $("dd").css({
@@ -29,21 +29,23 @@ $(document).ready(function() {
         paddingTop: 5,
         paddingRight: 5,
         paddingBottom: 5,
-        paddingLeft: 5
+        paddingLeft: 0
       });
       // animate current title to full size      
       $el.animate({
         "font-size": "20px",
-        paddingTop: 10,
+        paddingTop: 5,
         paddingRight: 5,
-        paddingBottom: 0,
-        paddingLeft: 10
+        paddingBottom: 5,
+        paddingLeft: 0
       }).next().slideDown();
 
       //change the image and link
-      $(".screenshot1").css({"background":"url(../images/"+ $el.data("image1") +".png) center/contain no-repeat"})
+      $(".screenshot1").css({"background":"url(../images/"+ $el.data("image1") +".png) center/contain no-repeat", "background-origin": "content-box" })
+      $(".screenshot2").css({"background":"url(../images/"+ $el.data("image2") +".png) center/contain no-repeat", "background-origin": "content-box" })
 
-      $(".screenshot2").css("background", "url(../images/"+ $el.data("image2") +".png) center/contain no-repeat")
+
+      // $(".screenshot2").css("background", "url(../images/"+ $el.data("image2") +".png) center/contain no-repeat")
       
       // make sure the correct column is current
       $allTitles.removeClass("current");
