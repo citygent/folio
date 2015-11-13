@@ -32,6 +32,7 @@ h1.multiline-last {
 }
 .intro p {
   font-size: 2em;
+  font-size: 3.333vw;
   font-weight: bold;
   letter-spacing: -0.025em;
 }
@@ -41,8 +42,9 @@ h1.multiline-last {
   padding-bottom: 3em;
 }
 .contact a {
-  font-size: 1.5em;
-  line-height: 3em;
+  font-size: 1em;
+  font-size: 1.5vw;
+  line-height: 2em;
   color: black;
   text-decoration: none;
 }
@@ -86,6 +88,11 @@ h1.multiline-last {
     font-size: 6.5em;
   }
 */
+  .contact a {
+    font-size: 1.5em;
+    font-size: 2.5vw;
+    line-height: 3em;
+  }
 
 }
 @media screen and (max-width: 80em) {
