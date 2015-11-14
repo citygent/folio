@@ -45,6 +45,7 @@ h1.multiline-last {
 }
 .contact a {
   font-size: 1.25em;
+  font-size: 2vw;
   line-height: 2.5em;
   color: black;
   text-decoration: none;
@@ -72,6 +73,12 @@ h1.multiline-last {
 }
 .work-content a:hover {
   color: #4f4f4f;
+  font-size: 1em;
+}
+.side-note {
+  font-weight: lighter;
+  color: #808080;
+  font-size: .75em;
 }
 .github-link a:hover {
   color: #4f4f4f;
