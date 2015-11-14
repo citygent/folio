@@ -20,7 +20,7 @@
       <div class="intro">
         <h1>Hello,</h1>
         <h1 class="multiline-last">My name is James</h1>
-        <p>I’m a Junior Web Developer based in London, I use a variety of bicycles to get around the city.</p>
+        <p>I’m a Junior Web Developer based in London, I also like to ride bikes, and this year I'm chairman of the London Hardcourt Bicycle Polo Association.</p>
         <p>I have an arts education, I particularly love to nerd-out about films, typography and design. I have a good eye for how products &amp; services can be better.</p>
         <p>Maybe we could work together?</p>
       </div>
@@ -47,24 +47,33 @@
       <dl>
         <dt data-image1="WY1" data-image2="WY2" href="#A">Weylan-Yutani</dt>
         <dd id="A" class="work-content">
-          <p><a href="http://citygent.github.io">My first GA self-initiated project: A tile-flip memory game.</a> Note: Will not work on a touch device (yet)</p>
+          <p><a href="http://citygent.github.io">My first GA self-initiated project: A tile-flip memory game.</a><br>Note: Will not work on a touch device (yet)</p>
           <p>Visuals are based on signage and computer terminals aboard the setting for Ridley Scott's 1979 Sci-Fi masterpiece, Alien.</p>
           <p>I am a huge fan of this film and wanted this project to be an exercise in front-end, so kept the javascript logic as basic as possible (but please check out the code/readme). As well as jQuery and CSS animation techniques, I learnt about web font handling and layout, as well as adding sound to websites.</p>
+          <p><a class="github-link" href="https://github.com/citygent/Weylan-Yutani-Training-Module-Signage-Aboard">See the code</a></p>
         </dd>
 
         <dt data-image1="DD1" data-image2="DD2" href="#B">DinnerDate</dt>
         <dd id="B" class="work-content">
-          <p><a href="http://dinnerdate.herokuapp.com">A Personal Restaurant MealTracker/Reviewer</a> Note: Will take a few seconds for sever to spin-up on Heroku</p>
+          <p><a href="http://dinnerdate.herokuapp.com">A Personal Restaurant MealTracker/Reviewer</a><br>Note: Will take a few seconds for server to spin-up on Heroku</p>
           <p>This app was born out of frustration at forgetting what I had or hadn’t eaten at a particular restaurant, whether they did a good or a poor version of a dish I was fond of, or even if I’d tried a new dish and liked it or loathed it.</p>
           <p>To help remind me I made an app that uses photos to track Restaurants, Dishes and Meals using the CRUD/RESTful concepts for all three resources.</p>
           <p>I fell in love with Ruby on Rails during this project, and learnt a lot about relational DB’s. I pushed myself to make UX and forms dynamic using jQuery and AJAX and it was also the first time I’d used AWS and Carrierwave for image uploads. I wanted some automation and efficiency to this, so I tacked on Cloudinary for optimisation.</p>
+          <p><a class="github-link" href="https://github.com/citygent/Hello-Stranger">See the code</a></p>
         </dd>
-
         <dt data-image1="HS1" data-image2="HS2" href="#C">Hello Stranger</dt>
         <dd id="C" class="work-content">
-          <p><a href="https://github.com/citygent/Hello-Stranger">Event and Location based Chatrooms</a></p>
+          <p><a href="https://github.com/citygent/Hello-Stranger">Event and Location based Chatrooms</a><br>Note: Code only, not currently deployed.</p>
           <p>My idea for this came about during a very long talk at <a href="http://lrug.org/">LRUG</a>, where to keep themselves amused, students were texting each other, other attendees wanted to join in! ‘But why doesn’t this exist?’ I thought: 'We don’t talk to each other enough in this city, so could geo-specific and anonymous (for safety concerns) chatrooms fix this?'</p>
           <p>Thankfully my idea was chosen for our group project, it ticked all the boxes of technologies we wanted to learn; WebSockets, Sessions, Authentication and Geolocation. We built the backend on Node.js using Express, and decided on Mongoose accessing a MongoDB as this was a new DB concept for me, integration of the Google Maps API was key, we also used Eventbrite’s API for fetching local event data, but I would like to add the feature of creating events on the go.</p>
+        </dd>
+        <dt data-image1="placeholder" data-image2="placeholder" href="#D">REFR (WIP/alpha)</dt>
+        <dd id="D" class="work-content">
+          <p><a href="https://github.com/citygent/REFR">Bike Polo Referee Tool</a><br>Note: Code only, not currently deployed.</p>
+          <p>For my final project at GA, I wanted to do something real world and also build something that fixes a genuine problem of the sports community I'm chairman of.</p>
+          <p>Bike Polo leagues are usually administered by a team of volunteers, who take game reports that come in over e-mail, SMS, or on our forum, and put this data into a spreadsheet. Reports are often late, they are missing data more often than not, and can be accused of being inaccurate; They’re nearly always written on the back of an envelope or napkin whilst said referee battles the elements, rowdy players and fans, and times the game on his phone with his other hand.</p>
+          <p>So to change this all up I have built a robust API that renders Games, Teams, Players and Game Events in JSON to different URL endpoints. To input match reports I’ve an alpha of a Ref App built in Angular, a technology I have chosen because I intend to wrap it in Ionic for mobile devices.</p>
+          <p>Eventually there will be another web front end that will render League Tables, alongside Team, Player and Fixture data, hopefully with some nifty D3 visualisation.</p>
         </dd>
       </dl>
 
